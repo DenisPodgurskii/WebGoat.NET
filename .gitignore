@@ -8,6 +8,11 @@ obj
 WebGoat/App_Data/*.txt
 *.sqlite*
 WebGoat/Configuration/*.config
+.vs/WebGoat.NET/config/
+.vs/WebGoat.NET/v17/
+Backup/
+UpgradeLog.htm
+WebGoat/Properties/
 
 # Trash Files #
 ###############
