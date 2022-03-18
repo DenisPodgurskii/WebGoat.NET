@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{83B04441-0F79-4424-AAD0-46E0C3CDDAA1}|">
+  <MonoDevelop.Ide.ItemProperties.WebGoat.NET PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebGoat/AddNewUser.aspx.cs">
+    <Files>
+      <File FileName="WebGoat/Web.sitemap" Line="30" Column="115" />
+      <File FileName="../../../../Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/bin/MSBuild/Current/bin/Microsoft.CSharp.CurrentVersion.targets" Line="124" Column="44" />
+      <File FileName="WebGoat/Content/StoredXSS.aspx.designer.cs" Line="1" Column="1" />
+      <File FileName="WebGoat/Content/StoredXSS.aspx" Line="1" Column="1" />
+      <File FileName="WebGoat/Content/StoredXSS.aspx.cs" Line="1" Column="1" />
+      <File FileName="WebGoat/Content/JsonConvertor.aspx" Line="76" Column="15" />
+      <File FileName="WebGoat/Content/JsonConvertor.aspx.cs" Line="42" Column="2" />
+      <File FileName="WebGoat/Content/JsonConvertor.aspx.designer.cs" Line="126" Column="1" />
+      <File FileName="WebGoat/AddNewUser.aspx.cs" Line="27" Column="22" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebGoat.NET" expanded="True">
+            <Node name="WebGoat.NET" expanded="True">
+              <Node name="Content" expanded="True" />
+              <Node name="AddNewUser.aspx" expanded="True">
+                <Node name="AddNewUser.aspx.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -26,6 +26,9 @@
             <siteMapNode url="~/Content/StoredXSS.aspx" title="Stored XSS" description="Stored XSS" />
             <siteMapNode url="~/Content/ReflectedXSS.aspx" title="Reflected XSS" description="Reflected XSS" />
         </siteMapNode>
+        <siteMapNode url="~/Content/UntrustedDeserialization.aspx" title="Untrusted Deserialization" description="Untrusted Deserialization">
+            <siteMapNode url="~/Content/JsonConvertor.aspx" title="Json Convertor" description="Json Convertor" />
+        </siteMapNode>
         <siteMapNode url="~/Content/Authentication.aspx" title="Authentication Issues" description="">
             <siteMapNode url="~/Content/ForgotPassword.aspx" title="Insecure Forgot Password" description="Insecure Forgot Password" />
         </siteMapNode>

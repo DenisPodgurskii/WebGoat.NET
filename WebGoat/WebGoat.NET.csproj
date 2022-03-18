@@ -11,12 +11,12 @@
     <OutputType>Library</OutputType>
     <RootNamespace>OWASP.WebGoat.NET</RootNamespace>
     <AssemblyName>DotNetGoat</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>4.0</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -73,6 +73,10 @@
     <Reference Include="Mono.Data.Sqlite">
         <HintPath>lib\Mono.Data.Sqlite.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\ForgotPassword.aspx" />
@@ -501,6 +505,7 @@
     <Content Include="Content\Random.aspx" />
     <Content Include="Content\VerbTampering.aspx" />
     <Content Include="Content\VerbTamperingAttack.aspx" />
+    <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Code\CustomerLoginData.cs" />
@@ -1018,7 +1023,7 @@
           <TextStylePolicy inheritsSet="null" scope="application/x-master-page" />
           <TextStylePolicy inheritsSet="null" scope="application/x-ashx" />
         </Policies>
-        <XspParameters Port="8081" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="true" />
+        <XspParameters Port="8081" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
